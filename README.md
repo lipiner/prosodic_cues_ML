@@ -9,6 +9,7 @@ In this research, I used audio stimuli that were collected in the lab and contai
 ### Main files:
 - features_extraction.py - extracta features using OpenSmile tool
 - main.py - run several ML models (3 different algorithms) on the data with different types of labels
+- subjects_ML_correlation.py - calculates correlations between the results
 ### Helper files:
 - preprocessing_ratings.py - preprocessing the ratings filea and creates a base labels file and some statistics on the ratings files.
 - preprocessing_features.py - contains functions for splitting the data and getting the features and the labels
