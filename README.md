@@ -6,9 +6,9 @@ Whenever we engage in social interaction, it is important for us to accurately i
 In this research, I used audio stimuli that were collected in the lab and contain recordings of non-actor participants while discussing highly emotional autobiographical events, including the participants’ emotional valence while telling the story. Using three machine learning algorithms (random forests, support vector machines and polynomial regression), I will try to predict various emotional dimensions based on acoustic features. My hypothesis is that a computational model can identify some emotional characteristics based on prosodic cues alone. Although the accuracy level was usually not much above the chance level, the correlation between the predictions and the true ratings (‘EA score’) is significant when the model predicted valence and intensity dimensions. Furthermore, comparing these results to humans found better performances of the computational model when it predicted the intensity dimension, and didn’t find difference in the ability to identify valence dimension.
 
 # Project files
-### main files:
+### Main files:
 - features_extraction.py - extracta features using OpenSmile tool
 - main.py - run several ML models (3 different algorithms) on the data with different types of labels
-### helper files:
+### Helper files:
 - preprocessing_ratings.py - preprocessing the ratings filea and creates a base labels file and some statistics on the ratings files.
 - preprocessing_features.py - contains functions for splitting the data and getting the features and the labels
